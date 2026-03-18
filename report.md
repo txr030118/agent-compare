@@ -97,7 +97,7 @@ Across Task 4, all three agents satisfied the core structural requirements: cand
 | Task 1: Ingestion & Schema | Strongest: empirical leakage validation, cleanest process, highest reproducibility | Deep analysis; hardcoded path reduces reproducibility | Weakest: did not read documentation; NULL-handling errors |
 | Task 2: EDA | Strong; one missingness-derived feature bug required correction | Strongest: Spearman + assertions + misleading-finding audit | Weakest: three plots described but never generated |
 | Task 3: Baseline Model | Strongest: dummy comparator, CV, leakage control; ROC-AUC 0.8293 | Strong temporal realism; richest metrics; ROC-AUC 0.8794 | Runnable but weakest benchmark discipline; altered population; ROC-AUC 0.8668 |
-| Task 4: Model Improvement | Richest experimentation; strongest presentation; ROC-AUC 0.9092 | Strongest methodological self-audit; temporal CV; ROC-AUC 0.8871 | Weakest: no gradient boosting, unbounded RF tuning, code duplication; ROC-AUC 0.9099 |
+| Task 4: Model Improvement | Richest experimentation; strongest presentation; ROC-AUC 0.9185 | Strongest methodological self-audit; temporal CV; ROC-AUC 0.8871 | Weakest: no gradient boosting, unbounded RF tuning, code duplication; ROC-AUC 0.9099 |
 
 | Dimension | Claude Code | Codex | Cursor |
 |-----------|-------------|-------|--------|
